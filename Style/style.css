@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+@keyframes logoZoomIn {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.logo-vetra {
+  opacity: 0;
+  transform: scale(0.7);
+  animation: logoZoomIn 0.8s ease-out forwards;
+}
+
+.accordion .accordion-item {
+  border-left: 5px solid #0d6efd;
+}
+.accordion .accordion-item .accordion-button {
+  font-weight: bold;
+  color: #0d6efd;
+}
+.accordion .accordion-item .accordion-button:hover {
+  background-color: rgb(215.3278688525, 231.2295081967, 254.6721311475);
+}
+
+.logo-carousel {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .logo-carousel {
+    width: 80px;
+  }
+}
+@media (max-width: 575.99px) {
+  .logo-carousel {
+    width: 60px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

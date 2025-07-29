@@ -1,0 +1,34 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+@keyframes logoZoomIn {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.logo-vetra {
+  opacity: 0;
+  transform: scale(0.7);
+  animation: logoZoomIn 0.8s ease-out forwards;
+}
+
+@import "variables";
+@import "index";
