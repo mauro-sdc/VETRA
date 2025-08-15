@@ -1,46 +1,108 @@
-# VETRA
+**VETRA**
 
-**VETRA** es una aplicación web estática que agrupa un Chatbot, un CRM y herramientas de gestión diseñadas para productores de seguros, administradores y emprendedores. 
-Su misión es automatizar la atención al cliente y centralizar la gestión de pólizas en una sola plataforma amigable y fácil de usar.
+VETRA es una web estática para productores de seguros que reúne un Chatbot, un CRM y herramientas de gestión.
+Su objetivo es automatizar la atención y centralizar la gestión de pólizas en una plataforma simple, mobile-first y amigable.
 
----
+🧩 **Funcionalidades**
 
-## 🛠️ Características principales
+Automatización de mensajes
+Respuestas automáticas para consultas frecuentes (vencimientos, coberturas, envíos de documentos).
 
-- **Automatización de mensajes**  
-  Respuestas automáticas por WhatsApp y otros canales para consultas frecuentes (vencimientos, coberturas, envíos de documentos).
+Gestión de clientes y pólizas
+Visualización y actualización de datos de pólizas, pagos y renovaciones.
 
-- **Gestión de clientes y pólizas**  
-  Panel único para visualizar y actualizar datos de pólizas, pagos y renovaciones sin salir de VETRA.
+Envío automático de documentación
+Cupones, certificados y reportes sin intervención manual.
 
-- **Envió automático de documentación**  
-  Generación y envío de cupones, certificados y reportes de forma 100 % automática.
+Consultas de estado en tiempo real
+Información inmediata por cliente y póliza.
 
-- **Consultas de estado en tiempo real**  
-  Acceso inmediato a la información de cada cliente y cada póliza.
+Informes y seguimientos
+Reportes mensuales automáticos.
 
-- **Informes y seguimientos**  
-  Reportes mensuales automáticos que facilitan la toma de decisiones.
+Aseguradoras integradas
+Carrusel con logos de compañías conectadas.
 
-- **Aseguradoras Integradas**  
-  Carrusel automático con los logos de las compañías de seguros conectadas.
+Equipo VETRA
+Sección con perfiles de roles (Founder, Comercial, Devs, QA/CS, etc.).
 
-- **Equipo VETRA**  
-  Sección “Equipo Vetra” con perfiles de los miembros clave (Founder, Líder Comercial, FullStack, QA, etc.).
+🗂️ **Estructura del proyecto**
+/                 ← raíz del sitio
+├── index.html    ← Inicio (beneficios, acordeón, carrusel de logos)
+├── pages/
+│   ├── chatboot.html    ← Página del Chatboot
+│   ├── servicios.html   ← Servicios (chatbot, CRM y gestión)
+│   ├── nosotros.html    ← Quiénes somos + Equipo Vetra
+│   └── contacto.html    ← Formulario de contacto
+├── Style/
+│   ├── style.css
+│   ├── style.css.map
+│   ├── variables.css
+│   └── variables.css.map
+└── sass/
+    ├── style.scss
+    ├── index.scss
+    └── variables.scss
 
----
 
-## 🗂️ Estructura del repositorio
-├── index.html ← Página de inicio con sección de beneficios, acordeón y carrusel
-├── chatboot.html ← Página dedicada al Chatbot para productores
-├── servicios.html ← Detalle de los servicios: Chatbot, CRM y gestión
-├── nosotros.html ← Quiénes somos y sección Equipo Vetra
-├── contacto.html ← Formulario de contacto completo y accesible
-├── style.css ← Estilos personalizados junto a Bootstrap 5.3.7
-└── README.md ← Documentación del proyecto
+Importante: En los HTML se referencia Style/style.css (S mayúscula). En hosting case-sensitive, respetar ese nombre de carpeta.
 
-## ⚙️ Tecnologías
-- **HTML5** y **CSS**  
-- **Bootstrap 5.3.7** (vía CDN)  
-- **Google Fonts** (Roboto / Nunito Sans)  
-- **JavaScript** (bundled únicamente por Bootstrap para el carousel y el acordeón)
+🧰 **Tecnologías**
+
+HTML5 + CSS (compilado desde Sass)
+
+Bootstrap 5.3.7 vía CDN
+
+Animate.css (en páginas con animaciones)
+
+📱 **Responsive**
+
+Mobile-first con Bootstrap 5.
+
+Soporte aproximado 320px–1200px.
+
+Grillas (.container, .row, .col-*) e imágenes fluidas.
+
+♿ **Accesibilidad**
+
+Formularios con label asociados; campos principales con required / aria-required="true" (contacto).
+
+Un solo <h1> por página (logo sin h1; título principal en <main>).
+
+alt descriptivo en imágenes (logos y retratos).
+
+🚀 **Performance**
+
+Scripts con defer (Bootstrap) para no bloquear el render.
+
+loading="lazy" en imágenes no críticas (carrusel, demo, equipo).
+
+Uso de .webp donde es posible.
+
+Animación del logo con @keyframes (sin JS extra).
+
+🔎 **SEO** 
+
+SEO On-Page (aplicado)
+
+Meta description y meta keywords por página.
+
+Jerarquía de encabezados corregida (h1 único en <main>).
+
+Optimización de imágenes: alt descriptivo y loading="lazy".
+
+URLs amigables: estructura simple (se corrigió un ..// en contacto).
+
+SEO Técnico (aplicado en HTML)
+
+Velocidad de carga: defer en scripts + lazy en imágenes.
+
+Optimización mobile: meta viewport + Bootstrap.
+
+SEO Técnico (pendiente para dominio propio)
+
+/robots.txt y /sitemap.xml en la raíz (bloques listos para agregar cuando haya dominio).
+
+HTTPS en hosting.
+
+Minificación y caché en servidor para producción.
