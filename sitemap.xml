@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.tu-dominio.com/</loc>
+    <loc>https://vetra-lake.vercel.app/</loc>
     <lastmod>2025-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.tu-dominio.com/pages/chatboot.html</loc>
+    <loc>https://www.vetra-lake.vercel.app/pages/chatboot.html</loc>
     <lastmod>2025-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.tu-dominio.com/pages/servicios.html</loc>
+    <loc>https://www.vetra-lake.vercel.app/pages/servicios.html</loc>
     <lastmod>2025-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.tu-dominio.com/pages/nosotros.html</loc>
+    <loc>https://www.vetra-lake.vercel.app/pages/nosotros.html</loc>
     <lastmod>2025-08-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.tu-dominio.com/pages/contacto.html</loc>
+    <loc>https://www.vetra-lake.vercel.app/pages/contacto.html</loc>
     <lastmod>2025-08-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
