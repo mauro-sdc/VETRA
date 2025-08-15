@@ -43,10 +43,7 @@ Sección con perfiles de roles (Founder, Comercial, Devs, QA/CS, etc.).
     ├── style.scss
     ├── index.scss
     └── variables.scss
-
-
-Importante: En los HTML se referencia Style/style.css (S mayúscula). En hosting case-sensitive, respetar ese nombre de carpeta.
-
+    
 🧰 **Tecnologías**
 
 HTML5 + CSS (compilado desde Sass)
@@ -69,7 +66,7 @@ Formularios con label asociados; campos principales con required / aria-required
 
 Un solo <h1> por página (logo sin h1; título principal en <main>).
 
-alt descriptivo en imágenes (logos y retratos).
+alt descriptivo en imágenes (logos y fotos).
 
 🚀 **Performance**
 
@@ -79,7 +76,7 @@ loading="lazy" en imágenes no críticas (carrusel, demo, equipo).
 
 Uso de .webp donde es posible.
 
-Animación del logo con @keyframes (sin JS extra).
+Animación del logo con @keyframes.
 
 🔎 **SEO** 
 
@@ -91,7 +88,7 @@ Jerarquía de encabezados corregida (h1 único en <main>).
 
 Optimización de imágenes: alt descriptivo y loading="lazy".
 
-URLs amigables: estructura simple (se corrigió un ..// en contacto).
+URLs amigables: estructura simple.
 
 SEO Técnico (aplicado en HTML)
 
@@ -101,8 +98,6 @@ Optimización mobile: meta viewport + Bootstrap.
 
 SEO Técnico (pendiente para dominio propio)
 
-/robots.txt y /sitemap.xml en la raíz (bloques listos para agregar cuando haya dominio).
-
-HTTPS en hosting.
+/robots.txt y /sitemap.xml en la raíz.
 
 Minificación y caché en servidor para producción.
