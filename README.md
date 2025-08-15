@@ -43,7 +43,7 @@ Sección con perfiles de roles (Founder, Comercial, Devs, QA/CS, etc.).
     ├── style.scss
     ├── index.scss
     └── variables.scss
-    
+
 🧰 **Tecnologías**
 
 HTML5 + CSS (compilado desde Sass)
@@ -101,3 +101,9 @@ SEO Técnico (pendiente para dominio propio)
 /robots.txt y /sitemap.xml en la raíz.
 
 Minificación y caché en servidor para producción.
+
+☁️ **Hosting**
+
+Realizado en Vercel
+
+Dominio: https://vetra-lake.vercel.app/
