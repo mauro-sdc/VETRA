@@ -64,7 +64,7 @@ Grillas (.container, .row, .col-*) e imágenes fluidas.
 
 Formularios con label asociados; campos principales con required / aria-required="true" (contacto).
 
-Un solo <h1> por página (logo sin h1; título principal en <main>).
+Un solo h1 por página (logo sin h1; título principal en <main>).
 
 alt descriptivo en imágenes (logos y fotos).
 
