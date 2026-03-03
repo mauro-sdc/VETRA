@@ -1,6 +1,6 @@
-**VETRA**
+**Zonda IT**
 
-VETRA es una web estática para productores de seguros que reúne un Chatbot, un CRM y herramientas de gestión.
+Zonda IT es una web estática para productores de seguros que reúne un Chatbot, un CRM y herramientas de gestión.
 Su objetivo es automatizar la atención y centralizar la gestión de pólizas en una plataforma simple, mobile-first y amigable.
 
 🧩 **Funcionalidades**
@@ -23,26 +23,26 @@ Reportes mensuales automáticos.
 Aseguradoras integradas
 Carrusel con logos de compañías conectadas.
 
-Equipo VETRA
+Equipo Zonda IT
 Sección con perfiles de roles (Founder, Comercial, Devs, QA/CS, etc.).
 
 🗂️ **Estructura del proyecto**
-/                 ← raíz del sitio
-├── index.html    ← Inicio (beneficios, acordeón, carrusel de logos)
+/ ← raíz del sitio
+├── index.html ← Inicio (beneficios, acordeón, carrusel de logos)
 ├── pages/
-│   ├── chatboot.html    ← Página del Chatboot
-│   ├── servicios.html   ← Servicios (chatbot, CRM y gestión)
-│   ├── nosotros.html    ← Quiénes somos + Equipo Vetra
-│   └── contacto.html    ← Formulario de contacto
+│ ├── chatboot.html ← Página del Chatboot
+│ ├── servicios.html ← Servicios (chatbot, CRM y gestión)
+│ ├── nosotros.html ← Quiénes somos + Equipo Zonda IT
+│ └── contacto.html ← Formulario de contacto
 ├── Style/
-│   ├── style.css
-│   ├── style.css.map
-│   ├── variables.css
-│   └── variables.css.map
+│ ├── style.css
+│ ├── style.css.map
+│ ├── variables.css
+│ └── variables.css.map
 └── sass/
-    ├── style.scss
-    ├── index.scss
-    └── variables.scss
+├── style.scss
+├── index.scss
+└── variables.scss
 
 🧰 **Tecnologías**
 
@@ -58,7 +58,7 @@ Mobile-first con Bootstrap 5.
 
 Soporte aproximado 320px–1200px.
 
-Grillas (.container, .row, .col-*) e imágenes fluidas.
+Grillas (.container, .row, .col-\*) e imágenes fluidas.
 
 ♿ **Accesibilidad**
 
@@ -78,7 +78,7 @@ Uso de .webp donde es posible.
 
 Animación del logo con @keyframes.
 
-🔎 **SEO** 
+🔎 **SEO**
 
 SEO On-Page (aplicado)
 
